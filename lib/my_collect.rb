@@ -22,4 +22,5 @@ def my_collect(array)
   counter += 1
     end
   end
+  return return_values
 end
