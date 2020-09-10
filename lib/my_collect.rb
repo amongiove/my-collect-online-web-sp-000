@@ -14,11 +14,10 @@ array = []
 
 def my_collect(array)
   count = 0
-  while count < array.length 
+  while count < array.length
     array.each do |i|
       yield
       puts i
     end
   end
 end
-
