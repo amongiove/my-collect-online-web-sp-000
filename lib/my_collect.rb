@@ -12,7 +12,7 @@ array = []
 #  return_value
 #end
 
-def my_collect(array)
+def my_collect(&b)
   count = 0
   while count < array.length
     array.each do |i|
