@@ -12,6 +12,6 @@ array = []
 #  return_value
 #end
 
-def my_collect(&b)
-  yield if block_given?
+def my_collect
+  yield if block_given? 
 end
