@@ -18,6 +18,7 @@ def my_collect(array)
     array.each do |i|
       yield
       puts i
+      count += 1
     end
   end
 end
