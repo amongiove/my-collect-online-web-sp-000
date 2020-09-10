@@ -14,8 +14,11 @@ array = []
 
 def my_collect(array)
   counter = 0
+  return_values = []
   while counter < array.length
+    array.each do |i|
     yield if block_given?
+    return_values << i
   counter += 1
   end
 end
