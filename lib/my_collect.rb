@@ -5,7 +5,7 @@ array = []
 def my_collect(array)
   return_array = []
   array.each do |i|
-    return array << yield(i)
+    return_array << yield(i)
   end
   return_array
 end
