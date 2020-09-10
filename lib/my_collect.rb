@@ -2,9 +2,12 @@
 
 array = []
 def my_collect(array)
+  return_value = []
   count = 0
   while count < array.length
     yield array[count]
+    return_value << array[count]
     count +=1
   end
+  return_value
 end
