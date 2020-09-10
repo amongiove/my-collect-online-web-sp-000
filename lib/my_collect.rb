@@ -20,5 +20,6 @@ def my_collect(array)
     yield if block_given?
     return_values << i
   counter += 1
+    end
   end
 end
