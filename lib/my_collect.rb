@@ -13,11 +13,5 @@ array = []
 #end
 
 def my_collect(&b)
-  count = 0
-  while count < array.length
-    array.each do |i|
-      yield if block_given?
-      count += 1
-    end
-  end
+  yield if block_given?
 end
