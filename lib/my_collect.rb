@@ -13,5 +13,5 @@ array = []
 #end
 
 def my_collect
-  yield if block_given? 
+  yield if block_given?
 end
