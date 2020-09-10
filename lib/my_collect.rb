@@ -13,6 +13,7 @@ array = []
 #end
 
 def my_collect(array)
+  counter = 0
   while counter < array.length
     yield if block_given?
   counter += 1
